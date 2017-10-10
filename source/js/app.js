@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */ 
+/*jshint esversion: 6 */
 
 let fibonacci = {
   [Symbol.iterator]() {
@@ -11,6 +11,10 @@ let fibonacci = {
     }
   }
 }
+
+
+
+
 
 for (var n of fibonacci) {
   // truncate the sequence at 1000
